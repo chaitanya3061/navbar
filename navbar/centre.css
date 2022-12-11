@@ -1,0 +1,130 @@
+body{
+  font-family: sans-serif;
+  
+}
+nav{
+  background-color:#fff;
+}
+
+nav ul li{
+  display: inline-block;
+  background-color:#fff;
+}
+nav a{
+  display: block;
+  padding: 0 20px;
+  color: rgb(12, 7, 7);
+  line-height: 60px;
+  font-size: 20px;
+
+  text-decoration: none;
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+  list-style: none;
+
+}
+nav a:hover{
+  background-color:aqua;
+}
+nav ul li:hover > ul {
+  display: inherit;
+}
+nav ul ul li{
+
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+#home{
+  padding-left: 40px;
+}
+#search{
+  padding-left: 700px;
+  
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.fa{
+  cursor: pointer;
+}
+
+span{
+  margin: 20px 0;
+}
+#html ,#css, #js{
+  margin-left: 25px;
+  margin-top: 0px;
+ }
+ #html{
+  margin-top: 40px;
+ }
+ #main{
+  margin-left: 40px;
+  margin-top: 30px;
+ }
+@media (max-width:1200px)  {
+  #main{
+    
+    margin-top: 30px;
+   
+    padding-left: 20px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+   }
+  nav{
+    background-color:#fff;
+  }
+
+  nav ul li{
+    display:block;
+    background-color:#fff;
+  }
+  nav a{
+    color: rgb(12, 7, 7);
+    text-decoration: none;
+  }
+
+  nav a:hover{
+    background-color:aqua;
+  }
+  nav ul li:hover > ul {
+    display: inherit;
+  }
+ 
+  #search{
+    margin-top: 40px;
+    font-size: 17px;
+    border: none;
+    margin-left: 0px;
+    padding:0px;
+  }
+  
+  .fa{
+    cursor: pointer;
+  }
+ #home{
+  padding-right:100px ;
+  padding-left: 0px;
+ }
+
+ #html ,#css, #js{
+  margin-left: 85px;
+  margin-top: 0px;
+ }
+ #html{
+  margin-top: 100px;
+ }
+ nav ul ul li{
+  /* background-color: aqua; */
+  width: 170px;
+  float: none;
+  display: block;
+  /* position: relative; */
+}
+}
